@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+}
+.side-containers{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    margin-top: 15px;
+}
+.score{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 15px;
+}
+.left-container{
+    margin-left: 7.5%;
+}
+.boxs{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-block: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 280px;
+}
+.boxs>.power{
+    font-size: 55px;
+}
+.boxs>.title{
+    padding: 7px;
+    font-size: 18px;
+}
